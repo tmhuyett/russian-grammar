@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	font-size: 30px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+div {
+	
+	font-size: 40px;
+	align-items: center;
+	padding-left: 100px;
+	padding-right: 300px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+h1 {
+	
+	font-size: 40px;
+	background-color: darkkhaki;
+	padding: 50px 50px 50px 50px;
+}
