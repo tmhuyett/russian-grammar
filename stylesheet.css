@@ -2,8 +2,14 @@
 /* CSS Document */
 
 p {
+	font-size: 30px;
+	font-familiy: Baskerville; 
+	text-align: justify;
+	text-justify: inter-word;
+	.first-letter {
+		color: red;
+	}
 	
-        font-size: 30px;	
 }
 
 div {
@@ -30,4 +36,9 @@ h1 {
 	font-size: 40px;
 	padding: 0px 0px 0px 0px;
 	
+
+}
+table th td {
+	
+	border: 1px solid-black;
 }
