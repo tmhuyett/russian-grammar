@@ -1,6 +1,10 @@
 <!doctype html>
 <html>
 <head>
+	<style type="text/css">
+.show{display:block;}
+.hide{display:none;}
+</style>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		  
 <meta charset="utf-8">
@@ -12,7 +16,8 @@
 
 
 
-<p>The Russian alphabet can look intimidating at first glance. However, it doesn't take long to see that it isn't much different from the Latin alphabet. The following words are pronounced a lot like they would be in English:</p> 
+<p><div ><span style="color: red; font-size: 80px;">T</span>he Russian alphabet can look intimidating at first glance. However, it doesn't take long to see that it isn't much different from the Latin alphabet. The following words are pronounced a lot like they would be in English:</div></p> 
+</p> 
 	
 <div>мама 
 	
@@ -28,11 +33,40 @@
 	<h1><p id="grad1"><i>2. Key Concepts: Softness, Hardness, and Stress</i></p></h1><hr>
 	<p>Most Russian consonants appear in pairs; that is, they're either <b>soft</b> or <b>hard</b>. Consider the difference between the following words:</p>
 	<div>мать
-	  	  <audio controls><source src="mat'.wav" type="audio/wav"></audio>
-</div>
+		<audio controls onplay="myFunction()"><source src="mat'.wav" type="audio/wav"></audio></div>
+
+
+
+
+
+
+
 	<div>мат
 <audio controls><source src='mat.wav' type="audio/wav"></audio></div> <hr>
+<p>The two words sound similar; indeed, the only significant difference is the way the <strong>т</strong> is pronounced. Although <strong>мать</strong> seems to have four letters, <strong>ь</strong> is the <em>soft sign</em>, not a letter. The soft sign serves only to tell you that the preceding consonant is soft, so it shouldn't be perceived as a letter in its own right.The difference between a <em>soft</em> and a <em>hard</em> consonant is the position of the tongue. Listen carefully to the two words and perhaps you will notice that the soft consonant is pronounced with the tongue raised closer to the roof of the mouth (the hard palate) and the lips spread a bit more. In the case of hard consonants, the opposite is true. The absence of a soft sign indicates that the letter is hard by default. Occasionally, the <em>hard sign</em> is necessary to indicate hardness, an issue that will be discussed in the next chapter.sdf</p>
+
+<h1><p id="grad1"><i>Soft-Series and Hard-Series Vowels</i></p></h1>
+
+<p>Before we discuss the hard sign, it's essential that you understand the Russian vowel system. Each Russian vowel comes as part of a mutual
+		ly exclusive pair.  </p></audio></div><br>
+<audio id="myAudio" controls><source src="mat'.wav" type="audio/wav"></audio>
+	   
+<script>
 	
-	<p>The two words sound similar; indeed, the only significant difference is the way the <b>т</b> is pronounced. Although <b>мать</b> seems to have four letters, <b>ь</b> is the <i>soft sign</i>, not a letter. The soft sign serves only to tell you that the preceding consonant is soft, so it shouldn't be perceived as a letter in its own right.The difference between a <i>soft</i> and a <i>hard</i> consonant is the position of the tongue. Listen carefully to the two words and perhaps you will notice that the soft consonant is pronounced with the tongue raised closer to the roof of the mouth (the hard palette) and the lips spread a bit more. In the case of hard consonants, the opposite is true. The absence of a soft sign indicates that the letter is hard by default.</p>
+	var aud=document.getElementById("myAudio");
+	aud.onplaying=function myFunction() {
+  var x = document.createElement("IMG");
+	x.setAttribute("src", "../images/number2.gif");
+	 x.setAttribute("width", "304");
+  x.setAttribute("height", "228");
+	document.body.appendChild(x);
+}
+</script>
+<p>alsdfj;lasjdf;laksjdfa;df</p>
+
+
+
+
+
 </body>
 </html>

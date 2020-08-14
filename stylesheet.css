@@ -3,23 +3,48 @@
 
 p {
 	font-size: 30px;
-	border-bottom: 1px solid black;
-	padding-bottom: 30px;
+	font-familiy: Baskerville; 
+	text-align: justify;
+	text-justify: inter-word;
 }
+	.first-letter {
+		color
+	}
+	
+
 
 div {
 	
 	font-size: 40px;
 	align-items: center;
 	padding-left: 100px;
-	padding-right: 300px;
-	border-bottom: 1px solid black;
 	padding-bottom: 30px;
 }
 
 h1 {
 	
+	font: 40px garamond;
+	font-style: bold;
 	font-size: 40px;
-	background-color: darkkhaki;
-	padding: 50px 50px 50px 50px;
+	background-image: linear-gradient(#6a5acd, white);
+	padding: 10px 50px 0px 50px;
 }
+
+#grad1 {
+	
+	font: 40px garamond;
+	font-style: bold;
+	font-size: 40px;
+	padding: 0px 0px 0px 0px;
+	
+
+}
+table th td {
+	
+	border: 1px solid-black;
+}
+
+div.col {
+			columns: 150px 2;
+		}
+		
